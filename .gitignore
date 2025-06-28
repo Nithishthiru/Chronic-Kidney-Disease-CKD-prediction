@@ -1,0 +1,28 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders (common names)
+venv/
+env/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Colab-specific files
+*.ipynb.json
+*.ipynb.metadata
+
+# Ignore editor folders
+.vscode/
+.idea/
+
+# Ignore environment or secret config files
+.env
+*.env
